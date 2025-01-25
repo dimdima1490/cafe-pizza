@@ -1,0 +1,143 @@
+body {
+    font-family: Rubik Bubbles;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #25544B;
+    width: 100%;
+    height: 100px;
+}
+
+nav{
+    position: absolute;
+    width: 70%;
+    left: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #33753B;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.coffee-pizza{
+    color:#33753B;
+    font-family: Rubik Bubbles;
+}
+
+.call{
+    width: 100px;
+    height: 40px;
+    background-color: #E6CF60;
+    text-align: center;
+}
+
+.menutext{
+    width: 100px;
+    height: 40px;
+    background-color: #E6CF60;
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.peperoni{
+    font-size: 40px;
+    font-family: Rubik Bubbles;
+}
+
+.peperonitext{
+    font-size: 20px;
+}
+
+.tomato{
+    font-size: 40px;
+    font-family: Rubik Bubbles;
+}
+
+.tomatotext{
+    font-size: 20px;
+}
+
+.italiano{
+    font-size: 40px;
+    font-family: Rubik Bubbles;
+    background-image: linear-gradient(#FFEE05,#93FF17);
+}
+
+.italianotext{
+    font-size: 20px;
+}
+
+.pizzaaction{
+    background-image: linear-gradient(#FFEE05,#93FF17);
+    font-size: 20px;
+}
+
+.late{
+    font-size: 40px;
+    font-family: Rubik Bubbles;
+}
+
+.latetext{
+    font-size: 20px;
+}
+
+.espreso{
+    font-size: 40px;
+    font-family: Rubik Bubbles;
+}
+
+.espresotext{
+    font-size: 20px;
+}
+
+.kapushino{
+    font-size: 40px;
+    font-family: Rubik Bubbles;
+    background-image: linear-gradient(#FFEE05,#93FF17);
+}
+
+.kapushinotext{
+    font-size: 20px;
+}
+
+.coffeeaction{
+    background-image: linear-gradient(#FFEE05,#93FF17);
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+div{
+    width: 100%;
+    background-color: #0A8753;
+    height: 200px;
+    font-family: Tahoma;
+}
+
+.more{
+    font-family:Rubik Bubbles;
+    font-size: 20px;
+}
+
+.numberphone{
+    font-size: 40px;
+}
+
+.down{
+    background-color: #25544B;
+}
