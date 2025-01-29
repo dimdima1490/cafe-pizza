@@ -28,116 +28,181 @@ a{
     color: white;
 }
 
-.coffee-pizza{
-    color:#33753B;
-    font-family: Rubik Bubbles;
-}
-
-.call{
-    width: 100px;
-    height: 40px;
-    background-color: #E6CF60;
+.coffee-pizza {
+    color: #33753B;
+    font-family: "Rubik Bubbles", cursive;
+    font-size: 40px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.menutext{
-    width: 100px;
-    height: 40px;
-    background-color: #E6CF60;
-    text-align: center;
-}
-
-.menu{
-    text-align: center;
-}
-
-.peperoni{
-    font-size: 40px;
-    font-family: Rubik Bubbles;
-}
-
-.peperonitext{
-    font-size: 20px;
-}
-
-.tomato{
-    font-size: 40px;
-    font-family: Rubik Bubbles;
-}
-
-.tomatotext{
-    font-size: 20px;
-}
-
-.italiano{
-    font-size: 40px;
-    font-family: Rubik Bubbles;
-    background-image: linear-gradient(#FFEE05,#93FF17);
-}
-
-.italianotext{
-    font-size: 20px;
-}
-
-.pizzaaction{
-    background-image: linear-gradient(#FFEE05,#93FF17);
-    font-size: 20px;
-}
-
-.late{
-    font-size: 40px;
-    font-family: Rubik Bubbles;
-}
-
-.latetext{
-    font-size: 20px;
-}
-
-.espreso{
-    font-size: 40px;
-    font-family: Rubik Bubbles;
-}
-
-.espresotext{
-    font-size: 20px;
-}
-
-.kapushino{
-    font-size: 40px;
-    font-family: Rubik Bubbles;
-    background-image: linear-gradient(#FFEE05,#93FF17);
-}
-
-.kapushinotext{
-    font-size: 20px;
-}
-
-.coffeeaction{
-    background-image: linear-gradient(#FFEE05,#93FF17);
-    font-size: 20px;
-}
-
-h2{
-    text-align: center;
-    font-size: 30px;
-}
-
-div{
+.menu-section {
     width: 100%;
-    background-color: #0A8753;
-    height: 200px;
-    font-family: Tahoma;
+    background-color: #f8f8f8;
+    padding: 40px 10%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-.more{
-    font-family:Rubik Bubbles;
+.menu-section p {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.call, .menutext {
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #E6CF60;
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.call:hover, .menutext:hover {
+    background-color: #d4b84d;
+}
+
+.menu-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.menu-section {
+    width: 100%;
+    padding: 40px 10%;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.menu-item {
+    width: calc(50% - 10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    max-width: 455px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.peperoni-card { background-color: #FFDDC1; }
+.tomato-card { background-color: #FFD1DC; }
+.italiano-card { background-color: #FFEE58; }
+.late-card { background-color: #D7CCC8; }
+.espreso-card { background-color: #BCAAA4; }
+.kapushino-card { background-color: #A1887F; }
+
+.peperoni, .tomato, .italiano, .late, .espreso, .kapushino {
+    font-size: 30px;
+    font-family: "Rubik Bubbles", cursive;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.peperonitext, .tomatotext, .italianotext, .latetext, .espresotext, .kapushinotext {
     font-size: 20px;
+    color: #333;
 }
 
-.numberphone{
-    font-size: 40px;
+
+.pizzaaction, .coffeeaction {
+    background-image: linear-gradient(#FFEE05, #93FF17);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-.down{
-    background-color: #25544B;
+footer {
+    background-color: #0A8753;
+    color: white;
+    padding: 40px 10%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+footer h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.more {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Google Карта */
+iframe {
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.numberphone {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.down {
+    margin-top: 30px;
+}
+
+.down h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.down img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.down img:hover {
+    transform: scale(1.1);
 }
